@@ -1,0 +1,424 @@
+* {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*menu*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1e172f;
+    width: 100%;
+
+   
+}
+
+nav button {
+    border: none;
+    height: 40px;
+    width: 120px;
+    color: white;
+    background: linear-gradient(to right, #883fd5, #0c7bd5);
+    border-radius: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #807b8a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+#contenedor1 {
+    padding-right: 15px;
+}
+
+/*termina el menu*/
+
+/*primera parte*/
+/*izquierda*/
+#primero-parte {
+    display: flex;
+    background-color: #2e2550;
+}
+
+#izquierda {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    height: 650px;
+    width: 900px;
+    background-color: #2e2550;
+    float: none;
+}
+
+#izquierda h1 {
+    height: 165px;
+    color: white;
+    font-size: 50px;
+}
+
+#izquierda p {
+    height: 60px;
+    color: white;
+}
+
+#contenedor2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    height: 40px;
+    width: 265px;
+    border: solid 1px #494267;
+    border-radius: 10px;
+}
+
+#contenedor2 button {
+    width: 130px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#descarga {
+    color: #f88bc3;
+}
+
+#factura {
+    color: white;
+    background-color: transparent;
+}
+
+/*fin izquierdo*/
+
+/*derecho*/
+#derecha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    background-image: url(/img/hojarasca.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+#derecha div {
+    width: 760px;
+}
+
+/* fin derecha */
+
+/* segunda parte */
+#segunda-parte {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f2f7;
+}
+
+#segunda-parte h2 {
+    text-align: center;
+    height: 90px;
+    width: 425px;
+    font-size: 40px;
+    color: #f41486;
+}
+
+#segunda-parte article h3 {
+    height: 60px;
+}
+
+#contenidos {
+    display: flex;
+    justify-content: space-between;
+    width: 855px;
+}
+
+article h3 {
+    color: #f41486;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+article h4 {
+    margin: 15px 0px;
+    color: #e05a9f;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.diseño ul {
+    list-style: none;
+    padding: 0;
+}
+
+.diseño li::before {
+    content: "☑";
+    margin-right: 5px;
+    color: #e05a9f;
+}
+
+/* FIN SEGUNDA PARTE */
+
+/* TERCERA PARTE */
+#tercera-parte {
+    background-color: #1e172f;
+    height: 850px;
+}
+
+#contenedor-3 {
+    display: flex;
+    justify-content: center;
+}
+
+#texto {
+    height: 110px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#tercera-parte h3 {
+    text-align: center;
+    height: 85px;
+    padding: 20px;
+    color: white;
+    font-size: 50px;
+}
+
+#mini-contenedores {
+    display: flex;
+    justify-content: space-evenly;
+    width: 925px;
+}
+
+#mini-contenedores span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.mini {
+    border: 1px solid;
+    width: 285px;
+    height: 560px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+#conte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+}
+
+.monei {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    background-color: #92929226;
+}
+
+.lista {
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista ul {
+    height: 160px;
+    width: 235px;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.estrella1::before {
+    content: "★";
+    margin-right: 30px;
+    color: #e05a9f;
+}
+
+.chulo1::before {
+    content: "✔";
+    margin-right: 30px;
+    color: #e05a9f;
+}
+
+.estrella::before {
+    content: "★";
+    margin-right: 30px;
+}
+
+.chulo::before {
+    content: "✔";
+    margin-right: 30px;
+}
+
+.x::before {
+    content: "✖";
+    margin-right: 30px;
+}
+
+.contenedor-mini {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    text-align: center;
+}
+
+.contenedor-mini p {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.suscribe1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: #f1f1f1;
+}
+
+.suscribe1 button {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(to right, #eb61a8, #f31c89);
+}
+
+.suscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: #f1f1f1;
+}
+
+.suscribe button {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: #1e172f;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redes ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+}
+
+.redes ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#nombre {
+    color: #e05a9f;
+    margin: 0px -380px 0px -380px;
+}
+
+
+@media screen and (max-width:992px) {
+    img {
+  padding-left: 20px;
+    }
+
+    nav ul li{
+        font-size: 15px ;
+    }
+    }
+
+    @media screen and (max-width:768px) {
+        nav {
+      padding: 40px;
+        }
+        }
+/*
+@media screen and (max-width:1200px) {
+    nav {
+  padding: 40px;
+    }
+    }*/
+
+/*
+@media screen and (max-width:720px) {
+    nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: #883fd5;
+        width: 250px;
+        height: 100vh;
+        padding: 40px;
+
+    }
+
+    nav img {
+         
+         display: flex;
+         flex-direction: column;
+         
+    }
+
+    nav ul {
+        flex-direction: column;
+        /*margin-top: 40px;*/
+       
+
+ /*   }
+
+    nav ul li {
+        margin-top: 30px;
+        margin-left: 0;
+
+    }
+
+    nav ul li a {
+        color: #000000;
+    }
+}*/
